@@ -1,6 +1,16 @@
+.container {
+    width: 100%;
+}
+
+
 /* desktop version */
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    section {
+        float: left;
+        width: 33.33%;
+    }
+}
 
 
 /* Tablet view */
