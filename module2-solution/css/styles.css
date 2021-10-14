@@ -21,11 +21,16 @@ body {
     padding-right: 15px;
 }
 
-.box-container {
+
+/* .box-container {
     /* margin-bottom: -500em; */
-    padding-bottom: 500em;
-    margin-bottom: -500em;
-}
+
+
+/* padding-bottom: 500em;
+    margin-bottom: -500em; */
+
+
+/* } */
 
 .box {
     font-size: medium;
