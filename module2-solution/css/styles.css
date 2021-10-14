@@ -21,17 +21,6 @@ body {
     padding-right: 15px;
 }
 
-
-/* .box-container {
-    /* margin-bottom: -500em; */
-
-
-/* padding-bottom: 500em;
-    margin-bottom: -500em; */
-
-
-/* } */
-
 .box {
     font-size: medium;
     position: relative;
@@ -40,9 +29,6 @@ body {
     padding-bottom: 5px;
     padding-top: 35px;
     background-color: rgb(167, 163, 163);
-    /* height: 150em; */
-    /* padding-bottom: 500em; */
-    /* margin-bottom: 500em; */
 }
 
 .box {
