@@ -1,0 +1,108 @@
+body {
+    font-size: 16px;
+    color: #000;
+    background-color: #f8ecf9;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #e7bfeb;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  .navbar-brand h1 { 
+    font-family: 'Lora', serif;
+    color: #6a52f0;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    text-align: center;
+  }
+  
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #5d43ef;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
+  
+
+  .container h1 {
+    color: #5d43ef;
+    margin-bottom: 7vh;
+  }
+
+  #main-content {
+    background-color: #d7d0fb;
+  }
+
+  #main-content h3 {
+    color: #be51c8;
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+  
+    #collapsable-nav {
+      background-color: #db9ee0;
+    }
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+      color: #8672f3;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+    }
+  
+    /* End Header */
+  
+  }
+  
+  
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+    /* Header */
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+    /* End Header */
+    
+  }
+  
+  
+  
+  
